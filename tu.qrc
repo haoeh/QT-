@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>clouds.png</file>
+        <file>magnifier.png</file>
+        <file>qin.jpg</file>
+        <file>rainy.png</file>
+        <file>sun.png</file>
+        <file>yin.jpg</file>
+        <file>yu.jpg</file>
+    </qresource>
+</RCC>
