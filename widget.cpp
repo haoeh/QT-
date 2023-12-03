@@ -82,7 +82,7 @@ void Widget::chuLiShuJu(QJsonObject x)
 
 void Widget::tuBiao(QString x,QLabel *y)
 {
-    if(x=="多云"||"阴")
+    if(x=="多云"||x=="阴")
     {
         y->setStyleSheet("border-image: url(:/clouds.png);");
     }
@@ -98,7 +98,7 @@ void Widget::tuBiao(QString x,QLabel *y)
 
 void Widget::beiJin(QString x)
 {
-    if(x=="多云"||"阴")
+    if(x=="多云"||x=="阴")
     {
         ui->widget_2->setStyleSheet("#widget_2{border-image: url(:/yin.jpg)};");
     }
